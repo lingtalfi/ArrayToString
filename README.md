@@ -167,6 +167,17 @@ The engine needs a symbolManager object to resolve the actual structure symbols.
 
 
 
+History Log
+------------------
+    
+   
+- 1.0.0 -- 2015-10-27
+
+    - initial commit
+    
+    
+    
+    
 
 
 
