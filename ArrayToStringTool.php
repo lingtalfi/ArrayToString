@@ -14,12 +14,15 @@ class ArrayToStringTool
      *                          If null, numeric keys will only be shown if there are non-numeric.
      * @return string
      */
-    public static function toPhpArray(array $array, $showKeys = null)
+    public static function toPhpArray(array $array, $showKeys = null, $offset=0)
     {
         $manager = new PhpArrayToStringSymbolManager();
+        $manager->setOffset($offset);
         $keysMode = (null === $showKeys) ? 'auto' : $showKeys;
         $manager->setShowKeysMode($keysMode);
-        return ArrayToStringUtil::create()->setSymbolManager($manager)->toString($array);
+        return ArrayToStringUtil::create()
+            ->setSymbolManager($manager)
+            ->toString($array);
     }
 
 }

@@ -311,6 +311,11 @@ History Log
 ------------------
     
    
+- 1.3.0 -- 2017-09-03
+
+    - add SpaceIndentedArrayToStringSymbolManager.setOffset method
+    - add ArrayToStringTool::toPhpArray offset argument
+    
 - 1.2.0 -- 2017-06-21
 
     - add ArrayToStringTool.toPhpArray $showKeys argument
