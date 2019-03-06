@@ -1,6 +1,6 @@
 <?php
 
-namespace ArrayToString\Exception;
+namespace Ling\ArrayToString\Exception;
 
 /*
  * LingTalfi 2015-10-26

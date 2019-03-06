@@ -1,6 +1,6 @@
 <?php
 
-namespace ArrayToString\SymbolManager;
+namespace Ling\ArrayToString\SymbolManager;
 
 /*
  * LingTalfi 2015-10-26

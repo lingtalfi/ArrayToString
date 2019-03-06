@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace ArrayToString\SymbolManager;
+namespace Ling\ArrayToString\SymbolManager;
 
 
 /**

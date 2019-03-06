@@ -1,6 +1,6 @@
 <?php
 
-namespace ArrayToString;
+namespace Ling\ArrayToString;
 
 /*
  * LingTalfi 2015-10-26
@@ -31,8 +31,8 @@ namespace ArrayToString;
  *
  *
  */
-use ArrayToString\Exception\ArrayToStringException;
-use ArrayToString\SymbolManager\ArrayToStringSymbolManagerInterface;
+use Ling\ArrayToString\Exception\ArrayToStringException;
+use Ling\ArrayToString\SymbolManager\ArrayToStringSymbolManagerInterface;
 
 class ArrayToStringUtil
 {

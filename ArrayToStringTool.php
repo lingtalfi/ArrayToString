@@ -1,10 +1,10 @@
 <?php
 
-namespace ArrayToString;
+namespace Ling\ArrayToString;
 
 
-use ArrayToString\SymbolManager\InlineArgsArrayToStringSymbolManager;
-use ArrayToString\SymbolManager\PhpArrayToStringSymbolManager;
+use Ling\ArrayToString\SymbolManager\InlineArgsArrayToStringSymbolManager;
+use Ling\ArrayToString\SymbolManager\PhpArrayToStringSymbolManager;
 
 class ArrayToStringTool
 {

@@ -17,7 +17,7 @@ Install
 
 Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
-uni import ArrayToString
+uni import Ling/ArrayToString
 ```
 
 
@@ -29,7 +29,7 @@ Install
 
 Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
-uni import ArrayToString
+uni import Ling/ArrayToString
 ```
 
 
@@ -119,12 +119,12 @@ ArrayToString is a [planet](https://github.com/lingtalfi/Observer/blob/master/ar
 
 require_once "bigbang.php";
 
-use ArrayToString\ArrayToStringUtil;
-use ArrayToString\SymbolManager\HtmlArrayToStringSymbolManager;
-use ArrayToString\SymbolManager\InlineArgsArrayToStringSymbolManager;
-use ArrayToString\SymbolManager\PhpArrayToStringSymbolManager;
-use ArrayToString\SymbolManager\SpaceIndentedArrayToStringSymbolManager;
-use ArrayToString\SymbolManager\PhpFunctionArgsArrayToStringSymbolManager;
+use Ling\ArrayToString\ArrayToStringUtil;
+use Ling\ArrayToString\SymbolManager\HtmlArrayToStringSymbolManager;
+use Ling\ArrayToString\SymbolManager\InlineArgsArrayToStringSymbolManager;
+use Ling\ArrayToString\SymbolManager\PhpArrayToStringSymbolManager;
+use Ling\ArrayToString\SymbolManager\SpaceIndentedArrayToStringSymbolManager;
+use Ling\ArrayToString\SymbolManager\PhpFunctionArgsArrayToStringSymbolManager;
 
 
 $a = [
