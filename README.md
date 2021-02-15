@@ -1,6 +1,6 @@
 ArrayToString
 ====================
-2015-10-27
+2015-10-27 -> 2021-02-15
 
 
 
@@ -358,9 +358,13 @@ History Log
 ------------------
     
 
+- 1.4.3 -- 2021-02-15
+
+    - fake commit to test commit wizard hook
+  
 - 1.4.2 -- 2020-12-08
 
-    - Fix lpi-deps not using natsort.
+    - Fix lpi-deps not using natsort
 
 - 1.4.1 -- 2020-12-04
 
