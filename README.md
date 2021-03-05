@@ -1,6 +1,6 @@
 ArrayToString
 ====================
-2015-10-27 -> 2021-02-15
+2015-10-27 -> 2021-03-05
 
 
 
@@ -11,21 +11,15 @@ ArrayToString is part of the [universe](https://github.com/karayabin/universe-sn
 
 
 
+
 Install
 =============
 
 
-Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
+Using the [planet installer](https://github.com/lingtalfi/Light_PlanetInstaller) via [light-cli](https://github.com/lingtalfi/Light_Cli)
 ```bash
-uni import Ling/ArrayToString
+lt install Ling.ArrayToString
 ```
-
-
-
-
-Install
-=============
-
 
 Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
@@ -357,6 +351,14 @@ The nice thing is that even if your array contains nested arrays, the format wil
 History Log
 ------------------
     
+
+- 1.4.5 -- 2021-03-05
+
+    - update README.md, add install alternative
+
+- 1.4.4 -- 2021-02-23
+
+    - Test auto-commit
 
 - 1.4.3 -- 2021-02-15
 
